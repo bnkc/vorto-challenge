@@ -40,7 +40,7 @@ While the current solution uses  Nearest Neighbor + Two-Opt for its simplicity a
 - **Simulated Annealing**: Also marginal improvements to cost `Mean Cost: 50722`
 - **Multi-Start Local Search**: No clear improvements seen in cost or run time
 
-Ultimately, I chose simplicity, performance, and straightforward implementation, making it a suitable choice for this challenge.
+Ultimately, I chose simplicity, performance, and straightforward implementation, making it a suitable choice for this challenge. I also chose to **NOT** use external packages that have built our algos for an extra bit of fun.
 
 ### References
 
