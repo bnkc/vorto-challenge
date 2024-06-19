@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: vorto-challenge <problem_path>")
+		fmt.Println("Usage: ./vorto <problem_path>")
 		return
 	}
 

@@ -14,6 +14,6 @@ func NewLoad(id int, pickup Point, dropoff Point) Load {
 		ID:       id,
 		Pickup:   pickup,
 		Dropoff:  dropoff,
-		Distance: Distance(pickup, dropoff),
+		Distance: EuclideanDistance(pickup, dropoff),
 	}
 }
