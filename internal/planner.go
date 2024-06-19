@@ -25,7 +25,7 @@ func PlanRoutes(filePath string) error {
 
 		for {
 			ld, found := nearestNeighbor(currentPoint, loads, visited)
-			// If we can't find any more loads or the driver can't add the load, break
+			// If we can't find any more loads or the driver can't add the load, breakout
 			if !found || !newDriver.AddLoad(ld, currentPoint, maxDriveTime) {
 				break
 			}

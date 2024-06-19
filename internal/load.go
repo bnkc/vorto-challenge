@@ -8,8 +8,7 @@ type Load struct {
 	Distance float64
 }
 
-// NewLoad creates a new load with the given parameters.
-func NewLoad(id int, pickup Point, dropoff Point) Load {
+func NewLoad(id int, pickup, dropoff Point) Load {
 	return Load{
 		ID:       id,
 		Pickup:   pickup,
